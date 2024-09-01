@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/onepaceicon.png" alt="" width="300" height="75">
+          </a>
+          <div class="text-light" id="navbarNav">
+            <ul class="d-flex gap-3">
+              <li class="nav-item">
+                <a class="nav-link text-light fs-2" href="#LPG">LPG</a>
+              </li>
+              <li class="nav-item disabled">
+                <a class="nav-link text-light fs-2" href="#">Frutas del diablo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+      <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active">
+            <img
+              src="img/luffy.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-end"
+              style="color: black; font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Monkey D. Luffy</h2>
+                <p class="text-end">
+                  El protagonista de la serie, es un joven pirata que busca el
+                  One Piece, el tesoro más grande del mundo, para convertirse en
+                  el Rey de los Piratas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/zoro.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-start"
+              style="color: black; font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Roronoa Zoro</h2>
+                <p class="text-start">
+                  Es el espadachín de la tripulación, busca convertirse en el
+                  mejor espadachín del mundo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/sanji.jpeg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex"
+              style="color: rgb(0, 0, 0); font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Sanji</h2>
+                <p class="text-end">
+                  Es el cocinero de la tripulación, busca encontrar el All Blue,
+                  un mar donde se encuentran todas las especies de peces.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/nami.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-start align-self-start"
+              style="color: rgb(0, 0, 0); font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Nami</h2>
+                <p class="text-start">
+                  Es la navegante de la tripulación, busca hacer un mapa del
+                  mundo entero.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/usopp.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-start align-self-end"
+              style="color: rgb(0, 0, 0); font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Usopp</h2>
+                <p class="text-end">
+                  Es el francotirador de la tripulación, busca convertirse en un
+                  valiente guerrero de los mares.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/chopper.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-start align-self-start"
+              style="color: rgb(0, 0, 0); font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Tony Tony Chopper</h2>
+                <p class="text-start">
+                  Es el médico de la tripulación, busca encontrar la cura para
+                  todas las enfermedades.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/robin.jpg"
+              alt=""
+              class="d-block w-100"
+              data-bs-interval="4000"
+            />
+            <div
+              class="carousel-caption d-flex justify-content-start align-self-end"
+              style="color: rgb(0, 0, 0); font-size: x-large"
+            >
+              <div class="col-2 bg-light-subtle opacity-75 rounded-3 p-2">
+                <h2>Nico Robin</h2>
+                <p class="text-end">
+                  Es la arqueóloga de la tripulación, busca encontrar la
+                  historia perdida del mundo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target=".carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target=".carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+        <div class="carousel-indicators">
+          <li
+            data-bs-target=".carousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="2"></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="3"></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="4"></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="5"></li>
+          <li data-bs-target=".carousel" data-bs-slide-to="6"></li>
+        </div>
+      </div>
+      <div class="mt-5 d-flex align-items-center flex-column text-center"id="LPG">
+        <div class="col-9">
+          <h1>La peor generacion</h1>
+          <h5>
+            La peor generación es un término usado para referirse a los once
+            piratas cuyas recompensas superaban los 100.000.000 Belly cuando
+            llegaron al Archipiélago Sabaody justo antes de la Guerra de
+            Marineford.
+            Aqui se encuentran los piratas de la peor generacion ordenados por su recompensa inicial.
+          </h5>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <div class="card text-center">
+              <img src="img/kid.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h2>Eustass Kid</h2>
+                <p>Capitán de los Piratas de Kid</p>
+                <h4>Recompensa</h4>
+                <h3>315.000.000</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card text-center">
+              <img src="img/luffy.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h2>Monkey D. Luffy</h2>
+                <p>Capitán de los Piratas de Sombrero de Paja</p>
+                <h4>Recompensa</h4>
+                <h3>300.000.000</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card text-center">
+              <img src="img/hawkins.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h2>Basil Hawkins</h2>
+                <p>Capitán de los Piratas de Hawkins</p>
+                <h4>Recompensa</h4>
+                <h3>249.000.000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <div class="row justify-content-center pt-4">
+        <div class="col-3">
+          <div class="card text-center">
+            <img src="img/xdrake.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h2>X Drake</h2>
+              <p>Capitán de los Piratas de Drake</p>
+              <h4>Recompensa</h4>
+              <h3>222.000.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <img src="img/law.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h2>Trafalgar Law</h2>
+              <p>Capitán de los Piratas de Heart</p>
+              <h4>Recompensa</h4>
+              <h3>200.000.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <img src="img/apoo.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h2>Scratchmen Apoo</h2>
+              <p>Capitán de los Piratas de Apoo</p>
+              <h4>Recompensa</h4>
+              <h3>198.000.000</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-4">
+        <div class="col-3">
+            <div class="card text-center">
+                <img src="img/killer.jpg" alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h2>Killer</h2>
+                    <p>Combatiente de los Piratas de Kid</p>
+                    <h4>Recompensa</h4>
+                    <h3>162.000.000</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card text-center">
+                <img src="img/bonney.jpg" alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h2>Jewelry Bonney</h2>
+                    <p>Capitana de los Piratas de Bonney</p>
+                    <h4>Recompensa</h4>
+                    <h3>140.000.000</h3>
+                </div>
+            </div>
+      </div>
+        <div class="col-3">
+            <div class="card text-center">
+                <img src="img/bege.jpg" alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h2>Capone Bege</h2>
+                    <p>Capitán de los Piratas de Firetank</p>
+                    <h4>Recompensa</h4>
+                    <h3>138.000.000</h3>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-4">
+        <div class="col-3">
+            <div class="card text-center">
+                <img src="img/zoro.jpg" alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h2>Roronoa Zoro</h2>
+                    <p>Espadachín de la tripulación Sombrero de Paja</p>
+                    <h4>Recompensa</h4>
+                    <h3>120.000.000</h3>
+                </div>
+        </div>
+        </div>
+        <div class="col-3">
+            <div class="card text-center">
+                <img src="img/urouge.jpg" alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h2>Urouge</h2>
+                    <p>Capitán de los Piratas de Urouge</p>
+                    <h4>Recompensa</h4>
+                    <h3>108.000.000</h3>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center text-lg-start mt-auto">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Acerca de One Piece</h5>
+                    <p>
+                        One Piece es una serie de manga y anime que sigue las aventuras de Monkey D. Luffy y su tripulación de piratas en busca del tesoro legendario conocido como "One Piece".
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Enlaces útiles</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Episodios</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Personajes</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Manga</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <p>
+                        Email: onepiece@grandline.com
+                        <br>
+                        Teléfono: +123 456 7890
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Derechos Reservados:
+            <a class="text-white" href="https://onepiece.com/">onepiece.com</a>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
